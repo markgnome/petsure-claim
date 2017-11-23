@@ -36,12 +36,7 @@ app.post('/upload', function (req, res) {
         return res.status(400).send('No files were uploaded.');
     console.log(req.files)
     var files = req.files.file;
-    if (Array.isArray(files)) {
-        console.log("Got " + files.length + " files");
-    } else {
-        // dropzone will send multiple requests per default
-        console.log("Got one file");
-    }
+   
     res.sendStatus(200);
 });
 

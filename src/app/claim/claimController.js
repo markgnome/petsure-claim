@@ -17,17 +17,14 @@
             return `[${file.name}]` 
         });
         $scope.submit = function(){
+            var fileNames = $scope.attachments.map(file => {
+                return ` [${file.name}]` 
+            }).join();
             new Noty({
                 type: 'info', 
-                text: `Thank you for submitting files ${$scope.attachments.map(file => {
-                    return ` [${file.name}]` 
-                }).join()} for ${$scope.selectedPet}`,
+                text: `Thank you for submitting files ${fileNames} for ${$scope.selectedPet}`,
                 layout: 'bottomRight',
             }).show();
-            console.log($scope.attachments.map(file => {
-                return `[${file.name}]` 
-            }).toString());
-            console.log(`Thank you for submitting files for ${$scope.selectedPet}`);
         }
         $scope.dzOptions = {
                 url: '/upload',
