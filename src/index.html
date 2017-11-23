@@ -5,22 +5,26 @@
     <link rel="stylesheet" href="assets/css/bootstrap.css"/>
     <link rel="stylesheet" href="assets/css/styles.css"/>
     <link rel="stylesheet" href="assets/css/animations.css"/>
+    <link rel="stylesheet" href="assets/css/dropzone.css" ></link>
+    <link rel="stylesheet" href="assets/css/noty.css">
+    
 </head>
 <body class="container">
     <header class="navbar navbar-inverse navbar-fixed-top ani-nav" role="banner">
         <div class="navbar-header">
-            <a href="https://www.petsure.com.au/" class="navbar-brand">Petsure</a>
+            <a href="https://www.petsure.com.au/" class="navbar-brand">PetSure</a>
             <a href="#" class="navbar-brand"> Claim</a>
         </div>
     </header>
     <div class="container">
-       <div class="row petsure-imgß">
+       <div class="row">
             <div class="col-md-12">
-                    <img src="assets/img/petsure-logo.png" class="img-thumbnail" alt="Cinque Terre">   
+                <img src="assets/img/petsure-logo.png" class="img-25" />   
             </div>
       </div>
-    <div>
-      
+      <div class="example-animate-container">
+            <div data-ng-view class="shuffle-animation"></div>
+        </div>
     </div>
 
     <script src="assets/libs/jquery-2.0.3.js"></script>
@@ -28,9 +32,11 @@
     <script src="assets/libs/angular.js"></script>
     <script src="assets/libs/angular-route.js"></script>
     <script src="assets/libs/angular-animate.js"></script>
-
+    <script src="assets/libs/dropzone.js"></script>
+    <script src="assets/libs/ng-dropzone.min.js"></script>
+    <script src="assets/libs/noty.js"></script>
     <script src="app/app.js"></script>
-    <script src="app/claim/controller.js"></script>
-    <script src="app/claim/service.js"></script>
+    <script src="app/claim/claimController.js"></script>
+    <script src="app/claim/claimService.js"></script>
 </body>
 </html>

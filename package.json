@@ -4,6 +4,7 @@
   "description": "petsure exercise",
   "main": "n",
   "dependencies": {
+    "express-fileupload": "^0.3.0",
     "node-sass": "^4.7.2"
   },
   "devDependencies": {},
