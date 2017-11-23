@@ -1,0 +1,23 @@
+{
+  "name": "petsure",
+  "version": "1.0.0",
+  "description": "petsure exercise",
+  "main": "n",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "n"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markgnome/petsure-claim.git"
+  },
+  "keywords": [
+    "petsure",
+    "exercise"
+  ],
+  "author": "mark milan",
+  "license": "MIT"
+}
