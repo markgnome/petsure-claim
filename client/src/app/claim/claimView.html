@@ -10,9 +10,9 @@
         <div class="col-sm-3"></div>
         <div class="col-sm-6 form-inline">
             <label for="selectPet">Make a claim for your pet</label>
-            <select name="selectPet" ng-model="selectedPet" id="selectPet" class="form-control input-normal">
+            <select name="selectPet" ng-model="selectedPet" ng-change="updateSelected()" id="selectPet" class="form-control input-normal">
                 <option></option>
-                <option ng-repeat="option in pets" value="{{option.name}}">{{option.name}}</option>
+                <option ng-repeat="option in pets" value="{{option.id}}">{{option.name}}</option>
             </select>
         </div>
         <div class="col-sm-3"></div>
@@ -20,7 +20,7 @@
     <div class="row">
         <div class="col-sm-3"></div>
         <div class="col-sm-6 form-inline">
-            <label ng-show="selectedPet">Attach {{selectedPet}}'s invoice for us here</label>
+            <label ng-show="selectedPet">Attach {{selectedPetName}}'s invoice for us here</label>
             <div ng-show="selectedPet" class="dropzone"  options="dzOptions" callbacks="dzCallbacks" methods="dzMethods" ng-dropzone></div>
         </div>
         <div class="col-sm-3"></div>
