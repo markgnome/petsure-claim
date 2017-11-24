@@ -4,7 +4,10 @@
   "description": "petsure exercise",
   "main": "n",
   "dependencies": {
+    "compression": "^1.7.1",
+    "express": "^4.16.2",
     "express-fileupload": "^0.3.0",
+    "morgan": "^1.9.0",
     "node-sass": "^4.7.2"
   },
   "devDependencies": {},
