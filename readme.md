@@ -11,5 +11,5 @@ Server
 Client
 1. in cmd navigate to 'cd client'
 2. run npm install
-2. node client/server.js
+2. node server.js
 
