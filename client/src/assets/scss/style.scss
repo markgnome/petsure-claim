@@ -1,0 +1,19 @@
+$container-width: 100%;
+
+body {
+    margin: 3em 0 0 0;
+}
+
+.row {
+    margin-top:1em;
+    margin-bottom:1em;
+}
+
+.container {
+  width: $container-width;
+}
+
+.img-25 {
+  width: $container-width / 4;
+  margin-top: 25px;
+}

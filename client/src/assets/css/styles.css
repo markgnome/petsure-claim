@@ -1,13 +1,18 @@
 body {
     margin: 3em 0 0 0;
-}
-
-.row {
-    margin-top:1em;
-    margin-bottom:1em;
-}
-
-.img-25 {
-    margin-top: 25px;
+  }
+  
+  .row {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  
+  .container {
+    width: 100%;
+  }
+  
+  .img-25 {
     width: 25%;
-}
+    margin-top: 25px;
+  }
+  
