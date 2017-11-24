@@ -24,7 +24,7 @@
             var pet = $scope.pets.find(x => x.id == $scope.selectedPet);
             new Noty({
                 type: 'info',
-                text: `Thank you for submitting files ${fileNames} for ${pet.name}`,
+                text: `Thank you for submitting files ${fileNames} for ${pet.name}!`,
                 layout: 'bottomRight',
             }).show();
         }
