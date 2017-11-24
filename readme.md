@@ -1,11 +1,14 @@
 To Run
 
+Root folder: petsure-claim
 Server
 1. install dotnet core sdk 2.0
-2. in cmd and folder path server/src run "dotnet build" and "dotnet run"
+2. in cmd 'cd server/src'
+3. run "dotnet build" and "dotnet run"
 
 
 Client
-1. run npm install
+1. in cmd navigate to 'cd client'
+2. run npm install
 2. node client/server.js
 
